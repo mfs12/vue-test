@@ -2,7 +2,10 @@
 <template>
   <div class="swiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">
+        abcd
+        <img alt="Vue logo" src="../assets/logo.png">
+      </div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
