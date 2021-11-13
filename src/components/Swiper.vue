@@ -42,8 +42,8 @@ export default {
   mounted() {
     this.swiper = new Swiper('.swiper', {
       // Optional parameters
-      //direction: 'horizontal',
-      direction: 'vertical',
+      direction: 'horizontal',
+      //direction: 'vertical',
       loop: true,
 
       // If we need pagination
@@ -70,7 +70,7 @@ export default {
 <style scoped>
 .swiper {
   width: 100%;
-  height: 200px;
+  height: 400px;
 }
 
 .swiper-slide {
