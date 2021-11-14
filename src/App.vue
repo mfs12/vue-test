@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Swiper msg="message to swipe"/>
+    <SwiperView msg="message to swipe" />
   </div>
 </template>
 
 <script>
-import Swiper from './components/Swiper.vue'
+import SwiperView from './components/SwiperView.vue'
 
 export default {
   name: 'App',
   components: {
-    Swiper
+    SwiperView
   }
 }
 </script>
