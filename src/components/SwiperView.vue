@@ -1,27 +1,42 @@
-<script src='./Swiper.js'></script>
+<script src='./SwiperView.js'></script>
 
 <template>
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        abcd
-        <img alt="Vue logo" src="../assets/logo.png">
+        <img
+          alt="Vue logo"
+          src="../assets/logo.png"
+        >
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
+
+      <div class="swiper-slide">
+        Slide 2
+      </div>
+      <div class="swiper-slide">
+        Slide 3
+      </div>
+      <div class="swiper-slide">
+        Slide 4
+      </div>
     </div>
 
     <!-- If we need pagination -->
-    <div class="swiper-pagination">pagination</div>
+    <div class="swiper-pagination">
+      pagination
+    </div>
 
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev">prev</div>
-    <div class="swiper-button-next">next</div>
-
+    <div class="swiper-button-prev">
+      prev
+    </div>
+    <div class="swiper-button-next">
+      next
+    </div>
     <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar">scrollbar</div>
-
+    <div class="swiper-scrollbar">
+      scrollbar
+    </div>
   </div>
 </template>
 
