@@ -1,3 +1,4 @@
+<script src='./Swiper.js'></script>
 
 <template>
   <div class="swiper">
@@ -23,49 +24,6 @@
 
   </div>
 </template>
-
-<script>
-
-import Swiper from 'swiper/swiper-bundle.min.js';
-import 'swiper/swiper-bundle.min.css';
-
-export default {
-  name: 'Swiper',
-  data() {
-    return {
-      swiper: null,
-    };
-  },
-  props: {
-    msg: String
-  },
-  mounted() {
-    this.swiper = new Swiper('.swiper', {
-      // Optional parameters
-      direction: 'horizontal',
-      //direction: 'vertical',
-      loop: true,
-
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-        dynamicBullets: true,
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-    });
-  }
-}
-</script>
 
 <style scoped>
 .swiper {
