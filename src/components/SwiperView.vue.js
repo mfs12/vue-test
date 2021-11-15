@@ -8,6 +8,12 @@ export default {
   data() {
     return {
       swiper: null,
+      images: [
+        "../img/2018.png",
+        "../img/2019.png",
+        "../img/2020.png",
+        "../img/canvas-2.png"
+      ]
     };
   },
   props: {

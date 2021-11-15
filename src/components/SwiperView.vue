@@ -1,24 +1,19 @@
-<script src='./SwiperView.js'></script>
+<script src='./SwiperView.vue.js'></script>
 
 <template>
+  <!-- eslint-disable -->
   <div class="swiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img
-          alt="Vue logo"
-          src="../assets/logo.png"
-        >
+      <div class=swiper-slide>
+        <img src="../assets/logo.png" alt=""/>
+      </div>
+      <div class="swiper-slide"
+           v-for="image in images"
+      >
+        <img :src="image" :alt="image">
+        </img>
       </div>
 
-      <div class="swiper-slide">
-        Slide 2
-      </div>
-      <div class="swiper-slide">
-        Slide 3
-      </div>
-      <div class="swiper-slide">
-        Slide 4
-      </div>
     </div>
 
     <!-- If we need pagination -->
