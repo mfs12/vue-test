@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
   ],
   extends: [
+    'plugin:vue/essential',
     'plugin:vue/recommended',
   ]
 }
